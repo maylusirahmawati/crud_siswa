@@ -3,7 +3,9 @@ Apa kesulitan yang Anda temui saat menghubungkan Laravel dengan database?
 Kesulitan yang saya temui saat menghubungkan Laravel dengan database, saya harus sangat teliti dalam menulis kode. Tidak boleh ada kesalahan penulisan seperti typo pada nama tabel, field, route, atau variabel karena sedikit kesalahan saja bisa menyebabkan error. Selain itu, saya juga masih merasa bingung ketika muncul pesan error saat program dijalankan. Terkadang pesan error menggunakan istilah yang cukup sulit dipaham, sehingga saya perlu membaca dengan teliti dan mencari tahu penyebabnya terlebih dahulu sebelum memperbaikinya. Namun dari situ saya belajar untuk lebih sabar, teliti, dan memahami alur kerja Laravel dengan lebih baik.
 <br>
 Bagaimana perbedaan proses CRUD di Laravel dibandingkan dengan PHP murni?
+<br>
 Proses CRUD di Laravel lebih terstruktur dan rapi karena menggunakan konsep MVC (Model, View, Controller). Laravel juga menyediakan fitur yang mempermudah pengelolaan database tanpa harus menulis query SQL secara langsung. Selain itu, pembuatan route dan controller bisa dilakukan dengan lebih cepat dan otomatis. Sedangkan pada PHP murni, semua proses seperti koneksi database, penulisan query, dan pengolahan data harus dibuat secara manual. Kode pada PHP murni biasanya lebih panjang dan kurang terorganisir dibandingkan Laravel. Oleh karena itu, Laravel terasa lebih praktis.
 <br>
 Bagaimana Anda memastikan keamanan saat melakukan operasi CRUD?
+<br>
 Untuk memastikan keamanan saat melakukan operasi CRUD, saya menggunakan validasi data agar input sesuai aturan. Saya juga menambahkan perlindungan CSRF dari Laravel untuk mencegah penyalahgunaan form. Dengan begitu menjadi lebih aman
